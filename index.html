@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <!--With help from CodeVault-->
+Name
+<form method="post">
+    <input type="text" name="username"
+        autocomplete="off" 
+        minlength="3"
+        maxlength="30"
+        required>
+    <input type="submit" value="Submit">
+</form>
+<p>Email</p>
+<form method="post">
+    <input type="email" name="email"
+        autocomplete="off" 
+        minlength="5"
+        pattern=".*.com"
+        required>
+    <input type="submit" value="Submit">
+</form>
+<p>Message</p>
+<form method="post">
+    <input type="text" name="Message"
+        autocomplete="off" 
+        minlength="2"
+        maxlength="150"
+        required>
+    <input type="submit" value="Submit">
+</form>
+<!-- Dropdown-->
+<p>Priority</p>
+<form>
+    <select name="Priority">
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+        <option value="none" selected>None</option>
+    </select>
+</form>
+</body>
+</html>
