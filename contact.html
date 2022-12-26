@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Page: Shanna's Exercise Equipment Store</title>
+</head>
+<body>
+
+   
+
+    <nav class="col-1">
+
+            <a href="index.html"> <li>Home</li></a>
+        
+
+    </nav>
+    <div class="col-2">
+        <header>Exercise Equipment</header>
+      <main class="content">
+        <form class="myForm">
+    
+        <article>
+        
+
+         <!--With help from CodeVault-->
+<!--Name-->
+ <p>Name</p>
+ <form method="post">
+     <input type="text" name="username"
+         autocomplete="off" 
+         minlength="3"
+         maxlength="30"
+         required>
+     <input type="submit" value="Submit">
+ </form>
+
+ <!--Email-->
+ <p>Email</p>
+ <form method="post">
+     <input type="email" name="email"
+         autocomplete="off" 
+         minlength="5"
+         pattern=".*.com"
+         required>
+     <input type="submit" value="Submit">
+ </form>
+
+ <!--Message-->
+ <p>Message</p>
+ <div class="message">
+ <form method="post">
+<input type="text" name="Message"
+         autocomplete="off" 
+         minlength="2"
+         maxlength="150"
+         size="75"
+         required>
+     <input type="submit" value="Submit">
+ </form>
+ </div>
+
+ <!-- Dropdown Priotity List-->
+ <p>Priority</p>
+ <form>
+     <select name="Priority">
+         <option value="high">High</option>
+         <option value="medium">Medium</option>
+         <option value="low">Low</option>
+         <option value="none" selected>None</option>
+     </select>
+ </form>
+
+ </form>
+ 
+      </article>
+      </main>
+        <footer>Shanna Rentas 2022 &copy;</footer>
+  
+    </div>  
+
+
+</body>
+</html>
